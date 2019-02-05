@@ -20,12 +20,12 @@ background-color: #ECF1F2;
   word-break: break-all;
 }
 
-.content_img1{
+.img-left{
 	float: left;
 	margin-right: 20px;
 }
 
-.content_img2{
+.img-right{
 	float: right;
 	margin-left: 20px;
 }

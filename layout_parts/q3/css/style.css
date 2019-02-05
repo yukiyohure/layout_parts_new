@@ -3,18 +3,18 @@
 /* 回答はここに書いてね */
 .content_table{
 	width: 100%;
-    border: 1px solid #dedede;
-    table-layout: fixed;
+  border: 1px solid #dedede;
+  table-layout: fixed;
 }
 
-.td{
+.content_table td{
 	padding: 10px;
   border: 1px solid #dedede;
   line-height: 22px;
   text-align: center;
 }
 
-.th{
+.content_table th{
 	background-color: #24a;
   color: #fff;
   font-size: 18px;
@@ -25,7 +25,7 @@
 }
 
 .content_table > tbody > tr:last-child {
-    border-top: 2px dashed #000;
+  border-top: 2px dashed #000;
 }
 
 .content_table > tbody > tr:nth-child(even){

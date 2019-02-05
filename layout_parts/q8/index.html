@@ -1,3 +1,5 @@
+<!-- focusした時の見た目が違う.送信した時の送信ボタンの見た目
+-->
 <!DOCTYPE html>
 <html>
   <head>
@@ -108,7 +110,7 @@
                 <div class="left-section">
                   <ul class="main-elements">
                     <li class="elements clearfix">
-                      <p class="items-title">名前</p>
+                      <p class="items-title">名前<span class="required">*</span></p>
                       <div class="items-content clearfix">
                         <!-- <label class="form-label form-name" for="name">名前</label> -->
                         <input class=" input input-box" id="for" type="text" name="name" required>
@@ -139,7 +141,7 @@
                       </div>
                     </li>
                     <li class="elements clearfix">
-                      <p class="items-title">Eメール</p>
+                      <p class="items-title">Eメール<span class="required">*</span></p>
                       <div>
                         <input class="input items-content input-box" type="email" name="email" placeholder="ex) hoge@gmail.com" required>
                       </div>
@@ -153,8 +155,8 @@
                     <li class="elements clearfix">
                       <div class="content-items">
                         <label>
-                          <input class="check-check" id="twenty" type="checkbox" name="" value="yes">
-                          <span class="checker checkbox-text" for="twenty">20歳以上です。</span>
+                          <input class="check-check" type="checkbox" name="" value="yes">
+                          <span class="checker checkbox-text">20歳以上です。</span>
                         </label>
                       </div>
                     </li>

@@ -244,6 +244,19 @@ input, button, textarea, select {
   line-height: 26px;
 }
 
+.submit:focus {
+  outline: 0;
+}
+
+.submit:active{
+	background-color: #fff;
+	color: #00BCD4;
+}
+
+.required{
+	color: #f00;
+}
+
 .items-title{
 	float: left;
   width: 100px;
