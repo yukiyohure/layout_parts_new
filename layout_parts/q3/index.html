@@ -27,9 +27,16 @@
 
              ■この問題で使う大事なプロパティ
              ・table-layout
+              auto:列幅は表組みの幅とセルの内容に合わせて自動的に調整されます。
+              fixed:列幅はwidthプロパティで指定した値で固定されて表示されます。指定がない列の列幅は、表組みの残りの幅に合わせて均等に分割されます。
 
              ■この問題で使う大事な擬似要素
-             ・:nth-child
+             ・:nth-child:
+              偶数にのみ適用する場合：2nあるいはeven
+              奇数にのみ適用する場合：2n+1あるいはodd
+              n番目に適用する場合：適用したい項目の順番の数値
+              n番目以降すべてに適用する場合：n+適用を開始する項目の数値
+
              ・:first-child
              ・:last-child
 
@@ -39,7 +46,60 @@
         <!-- 回答はクラスq3の要素の中に書いてね -->
         <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
         <div class="q3">
-          
+          <table class="content_table">
+            <thead>
+              <tr>
+                <th class="th">日付</th>
+                <th class="th">朝ごはん</th>
+                <th class="th">昼ごはん</th>
+                <th class="th">おやつ</th>
+                <th class="th">夜ご飯</th>
+                <th class="th">夜食</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="th">2016/04/01</td>
+                <td class="td">食パン</td>
+                <td class="td">チャーハン</td>
+                <td class="td">杏仁豆腐</td>
+                <td class="td">舞茸丼</td>
+                <td class="td">いちご</td>
+              </tr>
+              <tr>
+                <td class="th">2016/04/02</td>
+                <td class="td">なし</td>
+                <td class="td">ケバブ丼</td>
+                <td class="td">ゼリー</td>
+                <td class="td">唐揚げ定食</td>
+                <td class="td">いちご</td>
+              </tr>
+              <tr>
+                <td class="th">2016/04/03</td>
+                <td class="td">納豆ご飯</td>
+                <td class="td">まぐろ定食</td>
+                <td class="td">チョコパン</td>
+                <td class="td">餃子定食</td>
+                <td class="td">チョコ</td>
+              </tr>
+              <tr>
+                <td class="th">2016/04/04</td>
+                <td class="td">食パン</td>
+                <td class="td">牛丼</td>
+                <td class="td">アイス</td>
+                <td class="td">豚丼</td>
+                <td class="td">スムージー</td>
+              </tr>
+              <tr>
+                <td class="th">合計カロリー</td>
+                <td class="td">10000kcal</td>
+                <td class="td">12000kcal</td>
+                <td class="td">3000kcal</td>
+                <td class="td">30000kcal</td>
+                <td class="td">1000kcal</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <!-- 回答はクラスq3の要素の中に書いてね -->
       </div>

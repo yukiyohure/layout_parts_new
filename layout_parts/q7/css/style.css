@@ -1,5 +1,130 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.text{
+	font-size: 16px;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.first-box{
+	float:left;
+	width: 225px;
+	margin-left: 50px;
+	box-sizing: border-box;
+}
+
+.first-box:first-child{
+	margin-left: 0;
+}
+
+/*---------------------------------------*/
+
+.table-table{
+	display: table;
+}
+
+.cell{
+	display: table-cell;
+	width: 225px;
+	vertical-align: middle;
+	padding-left: 50px;
+}
+
+.cell:first-child{
+	padding-left: 0;
+}
+
+/*---------------------------------------*/
+
+.parent{
+	font-size: 0;
+}
+
+.inline{
+	margin-left: 50px;
+	display: inline-block;
+	width: 225px;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+.inline:first-child{
+	margin-left: 0;
+}
+
+/*----------------------------------------*/
+
+.flex{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.flex-box{
+	width: 225px;
+	box-sizing: border-box;
+}
+
+/*-----------------------------------------*/
+
+.fixed{
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.flexible{
+	display: inline-block;
+	margin-left: -300px;
+	padding-left: 350px;
+	vertical-align: top;
+	box-sizing: border-box;
+	width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 回答はここに書いてね */

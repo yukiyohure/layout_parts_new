@@ -1,5 +1,271 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.small{
+	border-radius: 3px;
+	font-size: 16px;
+	line-height: 26px;
+	padding: 0 15px;
+}
+
+.middle{
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 0 20px;
+	line-height: 32px;
+}
+
+.large{
+	border-radius: 7px;
+	font-size: 24px;
+	padding: 0 25px;
+	line-height: 38px;
+}
+
+.btn{
+	display: inline-block;
+	margin-left: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.common{
+	background-color: #00BCD4;
+	color: #fff;
+}
+
+.error{
+	background-color: #FF4081;
+	color: #fff;
+}
+
+.disabled{
+	background-color: #E5E5E5;
+	color: #fff;
+}
+
+.shadow{
+	box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
+}
+
+
+input, button, textarea, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.elements{
+	margin-top: 20px;
+}
+
+.elements:first-child{
+	margin-top: 0;
+}
+
+.main-elements{
+	margin-bottom: 20px;
+}
+
+.form-label{
+	text-align: right;
+}
+
+.select{
+	position: relative;
+}
+
+.selects{
+	width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.radio-check:checked + .radio-icon:after{
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+.check-check:checked + .checker:after{
+	position: absolute;
+    top: 50%;
+    left: 6px;
+    margin-top: -14px;
+    width: 8px;
+    height: 16px;
+    border-right: 3px solid #00BCD4;
+    border-bottom: 3px solid #00BCD4;
+    transform: rotate(45deg);
+    content: '';
+}
+
+.input{
+	width: 100%;
+	padding: 5px;
+	border-radius: 3px;
+	background-color: #fff;
+	font-size: 12px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.input-box{
+	border: none;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.form{
+	width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+}
+
+.form-title{
+	position: relative;
+	margin-bottom:20px;
+}
+
+.form-title-text{
+	position: relative;
+	background-color: #ECF1F2;
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+.horizon{
+	position: absolute;
+	top: 25%;
+  right: 0;
+	content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+.radio-name{
+	position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.radio{
+	cursor: pointer;
+}
+
+.radio-name:before{
+	position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.checkbox-text{
+	position: relative;
+  display: inline-block;
+  padding-left: 24px;
+}
+
+.left-section{
+	float: left;
+	width: 300px;
+}
+
+.right-section{
+	float: right;
+	width: 380px;
+}
+
+.content-items{
+	display: inline-block;
+	float: right;
+}
+
+.checkbox-text:before{
+	content: "";
+	width: 16px;
+	height: 16px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 50%;
+	left:0;
+	margin-top: -9px;
+}
+
+.label{
+	display: inline-block;
+	width: 100px;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.submit-box{
+	text-align: right;
+}
+
+.submit{
+	padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.items-title{
+	float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.items-content{
+	float: right;
+  width: 180px;
+}
+
+.textarea{
+	width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #FFF;
+  border:none;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
 
 /* 回答はここに書いてね */

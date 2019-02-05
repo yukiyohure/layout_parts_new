@@ -1,5 +1,113 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/*q6-1*/
+.align_box{
+	text-align: center;
+}
+
+.align{
+	display: inline-block;
+	background-color: #E6F2FF;
+	padding: 10px 0;
+	width: 90px;
+	text-align: center;
+}
+
+
+.margin{
+	padding: 10px;
+	background-color: #E6F2FF;
+	text-align: center;
+	margin:0 auto;
+	width: 90px;
+}
+
+/*q6-2-1*/
+.table_table{
+	display: table;
+}
+
+.table_box{
+	display: table-cell;
+  background-color: #ECF1F2;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.table{
+	display: inline-block;
+	padding: 10px;
+	background-color: #FFF;
+}
+
+/*q6-2-2*/
+.flexbox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex{
+	display: inline-block;
+	padding: 10px;
+	background-color: #FFF;
+}
+
+/*q6-2-3-1*/
+.position_box{
+	position: relative;
+}
+
+.fixed{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin:auto;
+}
+/*参照:https://hyper-text.org/archives/2014/08/position_absolute_center_layout.shtml*/
+
+/*q6-2-3-2*/
+.flexible{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 回答はここに書いてね */

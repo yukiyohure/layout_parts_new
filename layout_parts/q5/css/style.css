@@ -2,4 +2,114 @@
 
 /* 回答はここに書いてね */
 
+.boxes{
+	position: relative;
+	margin:0 auto;
+	width: 500px;
+  height: 500px;
+  background-color: #ECF1F2;
+}
+
+.numbers{
+	position: absolute;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.number_8{
+	z-index: 8;
+  top: 120px;
+  left: 120px;
+  background-color: #DE70CF;
+}
+
+.number_8:after {
+	content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #FFEFD3;
+}
+
+.number_5{
+	z-index: 5;
+  top: 360px;
+  left: 200px;
+  background-color: #9FD6D2;
+}
+
+.number_1{
+	z-index: 1;
+  top: 40px;
+  left: 200px;
+  background-color: #FFEFD3;
+}
+
+.number_7{
+	z-index: 7;
+  top: 200px;
+  left: 40px;
+  background-color: #DEAE70;
+}
+
+.number_4{
+	z-index: 4;
+  top: 280px;
+  right: 120px;
+  background-color: #8B7A5E;
+}
+
+.number_6{
+	z-index: 6;
+  top: 280px;
+  left: 120px;
+  background-color: #FFFEE4;
+}
+
+.number_2{
+	z-index: 2;
+  top: 120px;
+  right: 120px;
+  background-color: #7084DE;
+}
+
+.number_3{
+	z-index: 3;
+  top: 200px;
+  right: 40px;
+  background-color: #D0ECEA;
+}
+
+.number_9{
+	z-index: 9;
+  top: 10px;
+  left: 10px;
+  position: fixed;
+  background-color: #2B69A3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 回答はここに書いてね */
