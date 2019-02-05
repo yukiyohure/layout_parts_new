@@ -23,10 +23,12 @@ background-color: #ECF1F2;
 .img-left{
 	float: left;
 	margin-right: 20px;
+	margin-bottom: 10px;
 }
 
 .img-right{
 	float: right;
 	margin-left: 20px;
+	margin-bottom: 10px;
 }
 /* 回答はここに書いてね */

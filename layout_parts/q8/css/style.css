@@ -119,6 +119,11 @@ input, button, textarea, select {
 	font-size: 12px;
 	box-sizing: border-box;
 	display: inline-block;
+	outline: none;
+}
+
+.input:focus{
+	box-shadow: 0 0 7px #00BCD4;
 }
 
 .input-box{
@@ -232,6 +237,7 @@ input, button, textarea, select {
 
 .submit-box{
 	text-align: right;
+	outline: none;
 }
 
 .submit{
@@ -242,10 +248,8 @@ input, button, textarea, select {
   cursor: pointer;
   font-size: 16px;
   line-height: 26px;
-}
-
-.submit:focus {
-  outline: 0;
+  border:none;
+  outline: none;
 }
 
 .submit:active{
@@ -279,6 +283,11 @@ input, button, textarea, select {
   font-size: 12px;
   box-sizing: border-box;
   resize: none;
+  outline: none;
+}
+
+.textarea:focus{
+	box-shadow: 0 0 7px #00BCD4;
 }
 
 /* 回答はここに書いてね */

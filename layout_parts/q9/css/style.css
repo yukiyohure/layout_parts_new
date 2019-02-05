@@ -23,13 +23,13 @@
 }
 
 .image-box:hover .hidden-text{
-	position:relative;
-  bottom: 100%;
+	position:absolute;
+  bottom: 0;
   left:0;
 }
 
 .hidden-text{
-	position: relative;
+	position: absolute;
   bottom: -100%;
   left: 0;
   width: 100%;
